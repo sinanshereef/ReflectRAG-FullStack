@@ -77,7 +77,7 @@ ReflectRAG-FullStack/
 ├── Hospital_RAG/
 │   ├── Hospital.ipynb      # Notebook that built the vector database
 │   └── vector_database/    # Persisted ChromaDB store (committed, ~2.4 MB)
-├── docs/                   # ReflectRAG user manual (PDF + generator script)
+|
 ├── requirements.txt        # Backend dependencies (Python 3.11, pinned)
 └── .env.example            # Template for the required Google API key
 ```
