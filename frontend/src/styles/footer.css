@@ -1,0 +1,251 @@
+/* footer.css */
+
+.footer {
+  background: var(--forest-deep);
+  color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(185, 232, 213, 0.09) 0%, transparent 65%);
+  top: -220px;
+  right: -160px;
+  pointer-events: none;
+}
+
+.footer__main {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.35fr 0.75fr 0.9fr 1fr;
+  gap: clamp(2rem, 4vw, 3.4rem);
+  padding-block: clamp(3rem, 6vw, 4.5rem);
+}
+
+.footer__brand p {
+  margin-top: 16px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.68);
+  max-width: 40ch;
+}
+
+.footer .logo__name {
+  color: #fff;
+}
+
+.footer .logo__sub {
+  color: var(--mint);
+}
+
+.footer h4 {
+  font-family: var(--font-body);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__list {
+  display: grid;
+  gap: 10px;
+}
+
+.footer__list a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.72);
+  transition: color var(--dur), padding-left var(--dur) var(--ease);
+}
+
+.footer__list a:hover {
+  color: var(--mint);
+  padding-left: 6px;
+}
+
+.footer__list a::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--emerald);
+  flex: none;
+  opacity: 0;
+  transition: opacity var(--dur);
+}
+
+.footer__list a:hover::before {
+  opacity: 1;
+}
+
+.footer__contact {
+  display: grid;
+  gap: 13px;
+  font-size: 0.88rem;
+}
+
+.footer__contact li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.55;
+}
+
+.footer__contact svg {
+  flex: none;
+  color: var(--mint);
+  margin-top: 3px;
+}
+
+.footer__contact strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer__notice {
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-block: 20px 26px;
+  display: grid;
+  gap: 14px;
+}
+
+.footer__disclaimer {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  padding: 13px 16px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  font-size: 0.76rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.footer__disclaimer svg {
+  flex: none;
+  color: var(--gold);
+  margin-top: 2px;
+}
+
+.footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__legal nav {
+  display: flex;
+  gap: 22px;
+}
+
+.footer__legal button,
+.footer__legal a {
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: 600;
+  transition: color var(--dur);
+}
+
+.footer__legal button:hover,
+.footer__legal a:hover {
+  color: var(--mint);
+}
+
+@media (max-width: 1000px) {
+  .footer__main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer__main {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Legal modal */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.modal__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 42, 32, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.modal__card {
+  position: relative;
+  width: min(620px, 100%);
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--white);
+  border-radius: var(--r-lg);
+  padding: 30px;
+  box-shadow: var(--shadow-deep);
+  animation: modal-in 0.35s var(--ease);
+}
+
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.modal__card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.modal__card p {
+  font-size: 0.88rem;
+  color: var(--ink-2);
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.modal__card p strong {
+  color: var(--ink);
+}
+
+.modal__close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  background: var(--forest-08);
+  color: var(--ink);
+}

@@ -1,0 +1,186 @@
+GREENFIELD COMMUNITY HOSPITAL Frequently Asked Questions for a
+Patient-Facing Chatbot Synthetic sample data for RAG testing — not a
+real hospital
+
+IMPORTANT DEMO NOTICE Greenfield Community Hospital is fictional. All
+phone numbers, addresses, doctor names, prices, policies, and service
+details below are invented for software testing. The contact numbers are
+placeholders and do not work. Never use this document to make real
+medical or emergency decisions.
+
+ABOUT THE HOSPITAL Q: What is the hospital called? A: Greenfield
+Community Hospital.
+
+Q: Where is the hospital located? A: The sample address is 24 Riverside
+Road, Greenfield Junction, Kochi, Kerala 6820XX. This is a fictional
+address.
+
+Q: What is the reception number? A: The sample reception number is +91
+00000 10001. It is a non-working placeholder, not a real phone number.
+
+Q: Is reception open at night? A: In this sample dataset, reception is
+open 24 hours a day, every day.
+
+Q: What is the email address? A: The sample email is
+helpdesk@example.invalid. It is intentionally non-functional.
+
+APPOINTMENTS AND REGISTRATION Q: Do I need to register before seeing a
+doctor? A: Yes. The sample process is to register at reception first,
+then visit the relevant department.
+
+Q: How much is new-patient registration? A: The sample fee is ₹100 for a
+new patient.
+
+Q: How much is follow-up registration? A: The sample follow-up
+registration fee is ₹50 per visit.
+
+Q: How can I book an appointment? A: Ask reception or the appointment
+desk about available slots. A chatbot should only say an appointment is
+booked after receiving confirmation from a connected booking system.
+
+Q: What documents should I bring? A: Bring a government-issued photo ID,
+previous prescriptions or test reports if you have them, and insurance
+information if applicable.
+
+Q: Can I walk in without an appointment? A: Walk-in rules may depend on
+the department and current patient load. The chatbot should recommend
+confirming with reception rather than promising that a doctor is
+available.
+
+DOCTORS AND DEPARTMENTS Q: Which department treats fever or diabetes? A:
+General Medicine is the sample department for common adult illnesses,
+fever, diabetes, and blood-pressure follow-up. The listed sample doctor
+is Dr. Ananya Menon, available Monday to Saturday from 9:00 AM to 1:00
+PM.
+
+Q: When is the cardiologist available? A: The sample cardiology clinic
+is available Monday, Wednesday, and Friday from 10:00 AM to 1:00 PM. The
+listed sample doctor is Dr. Rahul Nair.
+
+Q: Which doctor treats children? A: Paediatrics is the sample department
+for child health. Dr. Meera Thomas is listed Monday to Saturday from
+9:30 AM to 12:30 PM.
+
+Q: When can I visit orthopaedics? A: The sample orthopaedics clinic is
+Tuesday, Thursday, and Saturday from 2:00 PM to 5:00 PM. The listed
+sample doctor is Dr. Vivek Pillai.
+
+Q: Which department handles pregnancy and women’s health? A: Obstetrics
+and Gynaecology. Dr. Lakshmi Varma is listed Monday to Friday from 10:00
+AM to 1:00 PM.
+
+Q: When is dermatology available? A: The sample dermatology clinic runs
+Tuesday and Friday from 2:00 PM to 4:30 PM. The listed sample doctor is
+Dr. Farah Joseph.
+
+Q: When is ENT available? A: The sample ENT clinic runs Monday,
+Wednesday, and Saturday from 2:00 PM to 4:00 PM. The listed sample
+doctor is Dr. Nikhil Das.
+
+Q: When is ophthalmology available? A: The sample eye clinic runs
+Tuesday, Thursday, and Saturday from 9:00 AM to 12:00 PM. The listed
+sample doctor is Dr. Sneha Kurian.
+
+Q: When is dentistry available? A: The sample dental clinic runs Monday
+to Saturday from 9:00 AM to 1:00 PM. The listed sample doctor is
+Dr. Arun Mathew.
+
+Q: Is emergency care available at night? A: The sample Emergency and
+Trauma department is described as open 24 hours. In a real emergency,
+use the local emergency number and do not rely on this fictional
+dataset.
+
+FEES AND BILLING Q: How much is a general consultation? A: The sample
+General Medicine consultation fee is ₹300.
+
+Q: How much is a specialist consultation? A: The sample specialist
+consultation fee is ₹500.
+
+Q: Is the emergency fee the total bill? A: No. The sample initial
+emergency assessment fee is ₹700. Tests, medicines, procedures,
+equipment, and other treatment may cost extra.
+
+Q: Can the hospital provide a medical certificate? A: A sample fee of
+₹200 is listed. A certificate can only be issued when clinically
+appropriate and authorized by a doctor.
+
+Q: Does the hospital accept insurance? A: The sample policy says
+patients should check insurance and cashless eligibility with the
+billing desk. The chatbot must not promise coverage without
+verification.
+
+ROOMS AND FOOD Q: What is the cheapest sample accommodation option? A: A
+general ward bed is listed at ₹1,000 per day. It is a shared room and
+meals are billed separately.
+
+Q: How much is a non-AC private room? A: The sample rate is ₹2,200 per
+day.
+
+Q: How much is an AC private room? A: The sample rate is ₹3,500 per day.
+
+Q: Is there a deluxe room? A: Yes, a sample deluxe room is listed at
+₹5,000 per day, subject to availability.
+
+Q: How much does an ICU bed cost? A: The sample bed charge is ₹8,000 per
+day. Doctor visits, nursing, medicines, equipment, investigations, and
+procedures may be charged separately.
+
+Q: How much is breakfast? A: The sample breakfast price is ₹80 per meal.
+
+Q: What is the sample vegetarian lunch price? A: ₹150 per meal.
+
+Q: What is the sample non-vegetarian lunch price? A: ₹220 per meal.
+
+Q: How much is tea or coffee? A: ₹20 per cup in this sample dataset.
+
+Q: Can a patient request a special diet? A: The sample patient diet meal
+costs ₹180, but it requires approval from the clinical or dietary team.
+Patients should follow the advice of their treating team, especially for
+allergies or medical dietary restrictions.
+
+AMBULANCE AND EMERGENCY Q: How many ambulances does the hospital have?
+A: The sample fleet has four ambulances: two Basic Life Support (BLS)
+vehicles and two Advanced Life Support (ALS) vehicles.
+
+Q: Is ambulance service available 24/7? A: The fictional dataset lists
+dispatch as 24/7, but actual availability would depend on vehicles,
+staff, and current calls.
+
+Q: How much does a local ambulance transfer cost? A: The sample rate is
+₹1,500 for the first 10 km, then ₹35 per additional kilometre.
+Equipment, oxygen, waiting time, and clinical staff may add charges.
+
+Q: What should the chatbot say if someone describes severe chest pain,
+difficulty breathing, unconsciousness, stroke symptoms, or major
+bleeding? A: It should advise the person to contact local emergency
+services immediately and seek urgent medical care. It must not diagnose
+the person, delay emergency action, or suggest that a chat response
+replaces professional assessment.
+
+FACILITIES AND VISITING Q: What are the laboratory hours? A: Sample
+collection is listed from 7:00 AM to 7:00 PM. Selected urgent tests may
+be available after hours.
+
+Q: What are the pharmacy hours? A: The sample pharmacy hours are 7:00 AM
+to 11:00 PM. Medication availability should be confirmed.
+
+Q: When can family members visit? A: Sample general visiting hours are
+4:00 PM to 6:00 PM. ICU visits require permission from the care team.
+
+Q: What payment methods are listed? A: Cash, debit or credit card, and
+UPI are listed in the sample dataset.
+
+CHATBOT BEHAVIOUR RULES FOR THIS TEST SET 1. Treat all details in these
+documents as fictional sample data, not real hospital information. 2.
+Answer only from retrieved document content. If a detail is missing, say
+that it is not specified and recommend checking with reception. 3. Do
+not invent doctor schedules, fees, room availability, insurance
+coverage, or appointment confirmations. 4. Distinguish sample fees from
+the total cost of treatment. 5. Do not diagnose illnesses or prescribe
+medicines. 6. For possible emergencies, advise immediate contact with
+local emergency services. Do not rely on the placeholder numbers in
+these documents. 7. Be clear, calm, and use plain language that patients
+can understand. 8. These sample schedules and prices are not live data.
+Availability must be confirmed before making a promise.
+
+END OF FAQ DOCUMENT

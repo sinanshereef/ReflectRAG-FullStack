@@ -1,0 +1,29 @@
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node / frontend build ----
+node_modules/
+dist/
+frontend/_legacy_v1/
+
+# ---- Local-only extras (not part of the deployed app) ----
+Bank/
+chroma_db
+/vector_database
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

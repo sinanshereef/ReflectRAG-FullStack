@@ -1,0 +1,67 @@
+/* tokens.css — Green Field Hospital design system
+   Brand colors from the master brand sheet. */
+
+:root {
+  /* Brand palette */
+  --forest: #145c45;
+  --forest-deep: #0e4433;
+  --emerald: #16866a;
+  --mint: #b9e8d5;
+  --mint-soft: #d9f2e7;
+  --bg: #f7faf8;
+  --white: #ffffff;
+  --ink: #18332b;
+  --ink-2: #71847b;
+  --gold: #d9b56d;
+
+  /* Derived tints */
+  --forest-08: rgba(20, 92, 69, 0.08);
+  --forest-12: rgba(20, 92, 69, 0.12);
+  --forest-70: rgba(20, 92, 69, 0.7);
+  --emerald-15: rgba(22, 134, 106, 0.15);
+  --emerald-30: rgba(22, 134, 106, 0.3);
+  --mint-40: rgba(185, 232, 213, 0.4);
+  --ink-08: rgba(24, 51, 43, 0.08);
+
+  /* Semantic */
+  --danger: #b3423c;
+  --danger-bg: #fdf1f0;
+  --ok: #167c58;
+  --ok-bg: #ecf8f2;
+
+  /* Typography */
+  --font-body: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Fraunces Variable", "Fraunces", ui-serif, Georgia, serif;
+
+  /* Type scale (fluid) */
+  --fs-hero: clamp(2.5rem, 5.2vw, 4.35rem);
+  --fs-h2: clamp(1.75rem, 3.2vw, 2.6rem);
+  --fs-h3: clamp(1.15rem, 1.6vw, 1.35rem);
+  --fs-lead: clamp(1.02rem, 1.4vw, 1.18rem);
+  --fs-body: 1rem;
+  --fs-small: 0.86rem;
+  --fs-chip: 0.78rem;
+
+  /* Spacing rhythm */
+  --sp-section: clamp(4.5rem, 9vw, 7.5rem);
+  --sp-card: clamp(1.25rem, 2vw, 1.75rem);
+  --container: 1200px;
+  --gutter: clamp(1.1rem, 4vw, 2rem);
+  --gutter-tight: clamp(1.1rem, 4vw, 1.75rem);
+
+  /* Radius & shadow */
+  --r-lg: 22px;
+  --r-md: 16px;
+  --r-sm: 10px;
+  --r-pill: 999px;
+  --shadow-soft: 0 6px 24px -8px rgba(14, 68, 51, 0.14), 0 2px 8px rgba(14, 68, 51, 0.05);
+  --shadow-lift: 0 18px 44px -14px rgba(14, 68, 51, 0.22), 0 4px 12px rgba(14, 68, 51, 0.07);
+  --shadow-deep: 0 30px 70px -20px rgba(10, 42, 32, 0.4);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 0.32s;
+
+  /* Nav */
+  --nav-h: 74px;
+}

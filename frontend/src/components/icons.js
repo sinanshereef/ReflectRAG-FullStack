@@ -1,0 +1,68 @@
+// icons.js — central Lucide icon resolver so data files can reference
+// icons by name and every component shares one import point.
+
+import {
+  Activity,
+  Ambulance,
+  Baby,
+  BedDouble,
+  Bone,
+  Clock,
+  Cpu,
+  Ear,
+  Eye,
+  FileText,
+  FlaskConical,
+  HeartHandshake,
+  HeartPulse,
+  Landmark,
+  MapPin,
+  Mail,
+  MessageSquareText,
+  Phone,
+  Pill,
+  Ribbon,
+  ScanFace,
+  ScanLine,
+  ShieldCheck,
+  Siren,
+  Smile,
+  Sparkles,
+  Stethoscope,
+  Users,
+} from "lucide-react";
+
+export const ICONS = {
+  Activity,
+  Ambulance,
+  Baby,
+  BedDouble,
+  Bone,
+  Clock,
+  Cpu,
+  Ear,
+  Eye,
+  FileText,
+  FlaskConical,
+  HeartHandshake,
+  HeartPulse,
+  Landmark,
+  MapPin,
+  Mail,
+  MessageSquareText,
+  Phone,
+  Pill,
+  Ribbon,
+  ScanFace,
+  ScanLine,
+  ShieldCheck,
+  Siren,
+  Smile,
+  Sparkles,
+  Stethoscope,
+  Users,
+};
+
+export function icon(name) {
+  return ICONS[name] ?? Sparkles;
+}
