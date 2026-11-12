@@ -119,3 +119,5 @@ Green Field Hospital is a **fictional showcase** — the site, its doctors and a
 ## 📄 License
 
 MIT — use it, fork it, learn from it.
+
+Backend API: https://reflectrag-fullstack.onrender.com/api/health
