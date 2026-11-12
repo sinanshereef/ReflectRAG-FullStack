@@ -5,7 +5,7 @@
 // line is passed to onEvent(event), so the UI can follow the LangGraph
 // pipeline live: retrieve -> grade_documents -> (transform_query) -> generate.
 
-const API_BASE = import.meta.env.DEV ? "" : import.meta.env.VITE_API_BASE ?? "";
+const API_BASE = import.meta.env.DEV ? "" : import.meta.env.VITE_API_BASE ?? "https://reflectrag-fullstack.onrender.com";
 
 export async function askGreenCare(question, onEvent, { signal } = {}) {
   const res = await fetch(`${API_BASE}/api/ask`, {
