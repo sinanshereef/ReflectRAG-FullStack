@@ -4,7 +4,7 @@
 
 A fictional **Green Field Hospital** website whose AI assistant, **GreenCare**, answers visitor questions strictly from the hospital's own documents — grading every retrieved chunk, rewriting weak queries, retrying when retrieval fails, and streaming the entire pipeline live into the browser.
 
-> **Live demo:** 🌐 Site: `https://<your-frontend-url>.onrender.com` · ⚙️ API: `https://<your-backend-url>.onrender.com/api/health`
+> **Live demo:** 🌐 Site: `[reflectrag-demo.onrender.com](https://reflectrag-demo.onrender.com)` · ⚙️ API: ` [reflectrag-fullstack.onrender.com/api/health](https://reflectrag-fullstack.onrender.com/api/health)`
 > *(The free backend sleeps after ~15 min idle — the first question may take ~50 s to wake it.)*
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org)
